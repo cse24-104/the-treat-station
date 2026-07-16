@@ -1,0 +1,135 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.custom-navbar{
+
+background:#ffffff;
+
+padding:15px 0;
+
+transition:.4s;
+
+box-shadow:0 4px 20px rgba(0,0,0,.06);
+
+}
+
+.navbar-brand img{
+
+height:70px;
+
+}
+
+.nav-link{
+
+font-family:'Poppins',sans-serif;
+
+font-weight:600;
+
+font-size:16px;
+
+margin:0 12px;
+
+color:#333 !important;
+
+position:relative;
+
+transition:.3s;
+
+}
+
+.nav-link:hover{
+
+color:var(--primary) !important;
+
+}
+
+.nav-link::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:-6px;
+
+width:0;
+
+height:3px;
+
+background:var(--primary);
+
+border-radius:10px;
+
+transition:.3s;
+
+}
+
+.nav-link:hover::after{
+
+width:100%;
+
+}
+
+.active{
+
+color:var(--primary) !important;
+
+}
+
+.active::after{
+
+width:100%;
+
+}
+
+.book-btn{
+
+background:var(--primary);
+
+color:white;
+
+padding:14px 28px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+box-shadow:0 10px 20px rgba(255,95,162,.25);
+
+}
+
+.book-btn:hover{
+
+background:#ff3d8b;
+
+transform:translateY(-3px);
+
+color:white;
+
+}
+
+.navbar-toggler{
+
+border:none;
+
+}
+
+.navbar-toggler:focus{
+
+box-shadow:none;
+
+}
+
+.navbar-toggler i{
+
+font-size:28px;
+
+color:var(--primary);
+
+}
